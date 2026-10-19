@@ -1,0 +1,8 @@
+Tool: built-in image_gen. Use case: text-localization.
+Input: design/ufo.jpg. Output: design/ufo-en.png.
+
+Create an English-only localized variant for a website concept. Preserve the visual style, scene, characters, cockpit arrangement, frame, colors, lighting, numbers, game logo UFO CASH, farm, jets and helicopters. Change Russian/Cyrillic text into natural English, fitting the existing panels:
+PLAYERS: 1,284; BET; CASH OUT; BELIEVE IN BIG TAKEOFFS!; COWS FLY HIGHER!; AUTO BET; AUTO CASH OUT; MORE MILK MORE X!
+Keep existing English text such as FUEL and SMITH RANCH. All lettering must be readable and English only. Do not redesign, crop, add elements, or change brand names. Maintain landscape aspect ratio approximately 1280:674.
+
+This is an AI-localized concept image, not a screenshot of the live English game.

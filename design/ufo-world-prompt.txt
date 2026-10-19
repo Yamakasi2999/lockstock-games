@@ -1,0 +1,5 @@
+Tool: built-in ImageGen. Use case: stylized-concept.
+References: design/ufo.jpg and design/logo.png.
+Final asset: public/images/ufo-world.jpg.
+
+Create a new cinematic 3D-cartoon illustration informed by the UFO CASH farm game scene and expressive cartoon cow. Landscape 16:9. A funny alien cow-abduction scene at blue hour on an American ranch. On the right half, a detailed metallic blue/indigo flying saucer hovers above the farm, with lime glowing portholes and a mint glass dome. A charming black-and-white cow with pink muzzle, cream horns and comical personality dangles in a mint tractor beam. Red barn, silo, fences, grassy hills and cows across the bottom. Warm lit windows, tiny stars, small moon. Left 48% is quiet dark midnight sky for web text overlay. Navy #19263D, indigo #4861AD, mint #A0E7D3, lime #76EF43, rose #D8787F, creamy lights. Premium stylized game art with atmospheric depth and readable silhouettes. No text, logos, multipliers, UI, white background, borders, weapons, missiles, explosions or watermark.

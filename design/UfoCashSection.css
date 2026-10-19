@@ -1,0 +1,30 @@
+/* Palette sampled visually from the supplied ufo.jpg and logo.png. */
+.ufo-section {
+  --ufo-navy: #19263d;
+  --ufo-blue: #4861ad;
+  --ufo-mint: #a0e7d3;
+  --ufo-green: #76ef43;
+  --ufo-cream: #f3eee2;
+  background: var(--ufo-navy);
+  color: var(--ufo-cream);
+  padding: clamp(24px, 5vw, 72px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ufo-section, .ufo-section * { box-sizing: border-box; }
+.ufo-section__eyebrow { color: var(--ufo-mint); letter-spacing: .14em; font-size: 12px; font-weight: 700; }
+.ufo-section h2 { font-family: 'Arial Rounded MT Bold', Arial, sans-serif; font-size: clamp(32px, 4.5vw, 60px); line-height: 1.1; letter-spacing: -.04em; }
+.ufo-section__cockpit { padding: clamp(8px, 1.7vw, 24px); background: #273852; border: 1px solid #52617c; border-radius: 20px; box-shadow: 0 20px 60px #08102155; }
+.ufo-section iframe { display: block; border: 0; border-radius: 12px; width: 100%; aspect-ratio: 1280 / 674; min-height: 520px; background: #101b2a; }
+.ufo-section__controls { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 24px 0 0; }
+.ufo-section__label { margin-right: auto; color: var(--ufo-mint); font-size: 12px; font-weight: 700; letter-spacing: .08em; }
+.ufo-section__controls a, .ufo-section__controls button { color: var(--ufo-cream); font: inherit; font-size: 14px; text-decoration: none; background: none; border: 0; padding: 10px 0; cursor: pointer; }
+.ufo-section__controls a:hover, .ufo-section__controls button:hover { color: var(--ufo-green); }
+.ufo-section :focus-visible { outline: 3px solid var(--ufo-mint); outline-offset: 5px; }
+.ufo-section__status { color: #c5d1e6; line-height: 1.5; }
+.ufo-section__cockpit:fullscreen { padding: 0; border: 0; border-radius: 0; }
+.ufo-section__cockpit:fullscreen iframe { width: 100%; height: 100%; min-height: 0; border-radius: 0; }
+@media (max-width: 600px) {
+  .ufo-section__label { width: 100%; }
+  .ufo-section iframe { min-height: 560px; }
+  .ufo-section__controls { gap: 12px 24px; }
+}
