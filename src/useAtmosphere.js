@@ -11,9 +11,9 @@ export default function useAtmosphere(paused = false) {
     // The live iframe container changes className in React when the game starts.
     // Keep it outside imperative reveal effects so it can never become hidden.
     const revealTargets = [...document.querySelectorAll(
-      '.universe-copy, .craft-diagram, .how-heading, .step, .game-section .eyebrow, .section-heading, .studio-copy, .studio-note, .operator-heading, .operator-cards article, .partner-strip, .contact-inner, .about-copy, .crew-manifest, .crew-heading, .crew-card, .crew-signoff, .about-value, .about-invitation'
+      '.catalogue-heading, .catalogue-copy, .catalogue-art, .game-section .eyebrow, .section-heading, .studio-copy, .studio-note, .operator-heading, .operator-cards article, .partner-strip, .contact-inner, .about-copy, .crew-manifest, .crew-heading, .crew-card, .crew-signoff, .about-value, .about-invitation'
     )];
-    const tiltTargets = [...document.querySelectorAll('.craft-diagram, .step, .studio-note, .operator-cards article, .crew-card, .crew-manifest')];
+    const tiltTargets = [...document.querySelectorAll('.operator-cards article, .crew-card, .crew-manifest')];
     let observer;
     let scrollFrame = 0;
     let pointerFrame = 0;

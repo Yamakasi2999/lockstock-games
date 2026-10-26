@@ -35,12 +35,12 @@ export default function AboutSection() {
     <div className="about-intro section-pad">
       <div className="container about-intro-inner">
         <div className="about-copy">
-          <p className="eyebrow">04 / ABOUT LOCKSTOCK</p>
+          <p className="eyebrow">03 / ABOUT LOCKSTOCK</p>
           <h2 id="about-title">Small team.<br />Shared imagination.</h2>
           <p className="about-lead">Unexpected ideas.<br />Unmistakable character.</p>
-          <p className="about-description">We’re LockStock Games, a six-person independent studio creating casino games with a world of their own. We believe a great game begins with an idea that makes you look twice — a character, a setting or a playful twist that stays with you.</p>
-          <p className="about-description">Our first encounter is UFO CASH. A quiet farm becomes the scene of a very unusual invasion, as a flying saucer lifts cows into a sky full of surprises. It brings our sense of humour to the crash format and introduces the kind of worlds we want to build: distinctive, expressive and full of personality.</p>
-          <p className="about-description">Behind every strange idea are real people bringing art direction, development, production and technical operations together. We care about how the whole experience comes together — from the first impression to the smallest detail.</p>
+          <p className="about-description">LockStock Games is an independent studio creating casino games with a world of their own. We bring rich visual storytelling, character, and a playful sense of humour to fast-paced formats like crash.</p>
+          <p className="about-description">Behind every strange idea are real people bringing art direction, development, production, and technical operations together. We keep the entire pipeline in-house, making sure every detail clicks: from the game’s visual rhythm and sound design to the underlying mathematical model.</p>
+          <p className="about-description">For operators, that means a game that brings something genuinely fresh to your lobby, backed by rock-solid engineering. Lightweight mobile architecture, Provably Fair mechanics, and direct collaboration with the team that wrote the code.</p>
           <div className="about-principles"><span>Character first</span><span>Details matter</span><span>Ideas take flight</span></div>
         </div>
         <div className="crew-manifest" aria-label="Studio crew manifest: 6 people, first release UFO CASH">
@@ -54,7 +54,7 @@ export default function AboutSection() {
         <div className="about-values">
           <article className="about-value"><span>01 / IDENTITY</span><h3>A world worth noticing.</h3><p>Memorable characters. A clear visual voice. A story that gives the game its own place in your lobby. We build around an identity that players can recognise and partners can introduce with confidence.</p></article>
           <article className="about-value"><span>02 / CRAFT</span><h3>Care in every detail.</h3><p>Art, code and production are parts of the same experience. Our ambition is to make them feel at home together, with thoughtful decisions that give each game its rhythm, atmosphere and character.</p></article>
-          <article className="about-value"><span>03 / PARTNERSHIP</span><h3>Let’s build a connection.</h3><p>For operators and partners, the introduction starts with a playable game and a direct conversation with our team. Explore UFO CASH, share your plans and let’s discuss where our worlds could meet.</p></article>
+          <article className="about-value"><span>03 / PARTNERSHIP</span><h3>Let’s build a connection.</h3><p>For operators and platforms, partnership starts with a playable game and an open conversation. Try UFO CASH, tell us about your roadmap, and let’s discuss how our games can fit your platform.</p></article>
         </div>
         <div className="about-invitation"><p>A small crew.<br /><strong>A different kind of first contact.</strong></p><a className="button button-navy" href="#operators">Meet your next game partner<span aria-hidden="true">↗</span></a></div>
       </div>

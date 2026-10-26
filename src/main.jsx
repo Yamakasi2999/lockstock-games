@@ -10,5 +10,6 @@ import './styles.css';
 import './concept.css';
 import './motion.css';
 import './about.css';
+import './catalogue.css';
 
 createRoot(document.getElementById('root')).render(<React.StrictMode><App /></React.StrictMode>);
